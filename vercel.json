@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/*.php": {
+    "activate.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" }
+    { "source": "/api/activate.php", "destination": "/activate.php" }
   ]
 }
