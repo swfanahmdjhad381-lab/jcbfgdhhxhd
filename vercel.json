@@ -1,11 +1,13 @@
 {
-  "version": 2,
   "functions": {
     "activate.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
   "rewrites": [
-    { "source": "/api/activate.php", "destination": "/activate.php" }
+    {
+      "source": "/api/activate.php",
+      "destination": "/activate.php"
+    }
   ]
 }
